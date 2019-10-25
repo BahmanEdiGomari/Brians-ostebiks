@@ -1,0 +1,64 @@
+[
+	{	
+		"id": 1,
+		"sku": "243234a",
+		"navn": "Feta",
+		"beskrivelse": [
+			"lorem ipsum  it amet consectetur adipisicing elit  it amet consectetur adipisicing elit  it amet consectetur adip ",
+			"dolor sit amet"
+		],
+		"land": "Græsk",
+		"pris": 34.95,
+		"vægt": 250,
+		"billeder": [
+			"woman-names-27-cheeses-in-30-seconds-800x480.jpg",
+			"feta04.jpg",
+			"feta03.jpg",
+			"feta02.jpg"
+		]
+	},
+	{	
+		"id": 2,
+		"sku": "sdf3344",
+		"navn": "Emmenthaler",
+		"beskrivelse": [
+			"lorem ipsum ipsum  it amet consectetur adipisicing elit  it amet consectetur adipisicing elit  it amet consectetur adip ",
+			"dolor sit amet"
+		],
+		"land": "Frankrig",
+		"pris": 17.25,
+		"vægt": 100,
+		"billeder": [
+			"cheese-min.jpg",
+			"emmenthaler04.jpg",
+			"emmenthaler03.jpg",
+			"emmenthaler02.jpg"
+		]
+	},
+	{
+		"id":3,
+		"sku": "438389dd",
+		"navn": "Brie",
+		"beskrivelse": [
+			"lorem ipsum ipsum  it amet consectetur adipisicing elit  it amet consectetur adipisicing elit  it amet consectetur adip",
+			"dolor sit amet"
+		],
+		"land": "Dansk",
+		"pris": 33.50,
+		"vægt": 250,
+		"billeder": [
+			"9209201.jpg",
+			"brie04.jpg",
+			"brie03.jpg",
+			"brie02.jpg"
+		]
+	}
+	
+]
+
+
+
+
+
+
+

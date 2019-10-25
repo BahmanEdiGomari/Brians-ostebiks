@@ -1,0 +1,31 @@
+{
+  "name": "lizard",
+  "version": "1.0.0",
+  "description": "jimi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build":"npm i && gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bahman",
+  "license": "ISC",
+  "keywords": [
+    "Konsol"
+  ],
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^4.1.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "gulp-babel": "^8.0.0"
+  }
+}

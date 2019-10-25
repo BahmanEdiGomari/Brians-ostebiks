@@ -1,0 +1,96 @@
+$primaryColor: hsl(130, 62%, 62%);
+$secondaryColor:white;
+$roskildeColor: #110406;
+$mainColor: red; 
+$footerColor: orange; 
+
+
+body {
+    background-color: $secondaryColor;
+    margin: 0;
+    padding: 0;
+}
+@import 'variables';    
+
+header {
+    background-color: $roskildeColor;
+    width: 50%;
+    height: 80px;
+   margin-right: 0;
+
+    padding: 0;
+    a{
+        color:$secondaryColor;
+        text-decoration: none;
+        margin-left: 20%;
+        font-size: 16px;
+     
+    }
+}
+nav {
+    background-color: $roskildeColor;
+    width: 50%;
+    height: 80px;
+    ul  {
+        display: flex;
+        float: right;
+        margin-right: 50px
+    }
+    ul li a {
+        text-decoration: none;
+        color: $secondaryColor;
+       margin-left: 60px;
+    }
+}
+/*
+main {
+    background-color: $mainColor;
+}
+footer{
+    background-color: $footerColor;
+}*/
+a{
+    color: green;
+    &:hover {
+        color: yellow;
+    }
+}
+
+.primaryNavigation {
+    color: white;
+    &__something {
+        color: rgb(236, 120, 120);
+    }
+}
+
+section {
+    margin-left: 120px;
+}
+
+.cardList--card{
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    h1, p {
+        grid-column-start: 2;
+        margin-left: 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+
+    }
+    table {
+        grid-column-start: 2;
+        margin: 0;
+        margin-left: 30px;
+    }
+}
+.display-header {
+    display: flex;
+}
+
